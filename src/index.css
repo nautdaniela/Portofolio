@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #000 !important; 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,430 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+*{
+  transition: all linear .3s;
+}
+
+h1{
+  color:gold;
+}
+
+li {
+  display:flex;
+  justify-content: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  text-emphasis: none;
+}
+
+.about{
+  position:relative;
+  background-color: #000;
+  color: gold;
+  display:grid;
+  justify-content: center;
+  width:19%;
+  margin-left:15%;
+  margin-top:-22%;
+  border-radius:80px;
+  padding: 18px;
+}
+
+#about{
+  position: relative;
+  margin-top: -400px !important;
+  color:gray;
+  background-color: #000 !important ;
+  margin-left:500px;
+  width:780px;
+  border-radius:80px;
+}
+
+#imgprofile {
+  width: 200px;
+  height:230px;
+  border-radius: 50px;
+  margin-bottom: 40px;
+}
+
+#realname{
+  color:antiquewhite;
+}
+
+#nameD {
+  font-size: 26px;
+  color:antiquewhite;
+}
+
+#icons {
+  color:goldenrod;
+  padding: 10px;
+}
+
+#icons2 {
+  color:antiquewhite;
+}
+
+#btnlink{
+  display: flex;
+  border-radius: 80px;
+}
+
+
+.row{
+  position: relative;
+  color:red;
+   
+}
+
+.rowAnalitics{
+  display: flex !important;
+}
+
+#home{
+  
+  position: relative;
+  color:lightblue;
+  
+}
+
+#namenav {
+  margin-top:-50px;
+  display:flex;
+  background-color: #000;
+  color: goldenrod;
+  font-size: 35px;
+  font-weight: 300;
+  text-align: left;
+  border-radius: 80px;
+  margin-left: 40px;
+  letter-spacing: 8px;
+  width:max-content;
+  text-shadow: 4px 2px 4px red;
+}
+
+#who {
+  margin:20px;
+  font-size:15px;
+  display:flex;
+  color:antiquewhite;
+}
+
+#download {
+  background-color: #2c2929;
+  display:flex;
+  width: max-content;
+  margin-left: 400px !important;
+  font-size: 15px;
+  text-decoration: none;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+  letter-spacing: none !important;
+  border-radius: 80px;
+  padding:20px;
+}
+
+#navbar {
+  width: max-content;
+  margin-right: 100px;
+  margin-top: 50px;
+  font-size: 15px;
+  color: antiquewhite;
+  border-radius: 80px;
+  background-color: black;
+}
+
+.navli a {
+  background-color: #2c2929;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 80px;
+  font-size: 15px;
+  text-decoration: none;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+}
+
+#navli a:hover {
+  background-color: #2c2929;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 80px;
+  font-size: 15px;
+  text-decoration: none;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+}
+
+
+#navli1 a:hover {
+  background-color: #2c2929;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 80px;
+  font-size: 15px;
+  text-decoration: none;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+}
+
+
+#navli2 a:hover {
+  background-color: #2c2929;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 80px;
+  font-size: 15px;
+  text-decoration: none;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+}
+
+
+#navli3 a:hover {
+  background-color: #2c2929;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 80px;
+  font-size: 15px;
+  text-decoration: none;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+}
+
+
+#navli4 a:hover {
+  background-color: #2c2929;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 80px;
+  font-size: 15px;
+  text-decoration: none;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+}
+
+#textabout {
+  font-size:16px;
+}
+
+#textme {
+  color: goldenrod;
+  text-shadow: 4px 2px 4px red;
+}
+
+#tecnologies img {
+  width:35px !important;
+  height:35px !important;
+}
+
+#experience {
+  display:grid;
+    background-color: black;
+  border-radius: 60px;
+  width:max-content;
+  padding: 30px;
+  align-self: center;
+  text-align: center;
+  }
+
+  #experience2{
+    color: goldenrod;
+  text-shadow: 4px 2px 4px red;
+  }
+
+  #experience3{
+    color: goldenrod;
+  text-shadow: 4px 2px 4px red;
+  }
+
+#expall{
+  position: relative;
+  background-image: url('./assets/code1.jpg'); 
+  border-radius: 40px;
+  height:580px;
+  width:1300px;
+  margin-bottom: 500px;
+  margin-left:10px;
+}
+
+.exp1{
+  display:grid !important;
+  background-color: #000;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+  border-radius: 80px;
+  padding:10px;
+  width: 600px;
+  margin-top: -10px;
+}
+
+.exp2{
+  margin-left: 700px;
+  margin-top: -120px;
+  margin-bottom: 60px;
+  display:grid !important;
+  background-color: #000;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+  border-radius: 80px;
+  padding:10px;
+  width: 600px;
+}
+
+.exp3{
+  display:grid !important;
+  background-color: #000;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+  border-radius: 80px;
+  padding:10px;
+  width: 800px;
+  margin:50px;
+  margin-bottom: 20px;
+  margin-left:300px;
+}
+
+
+.edu1{
+  display:grid !important;
+  background-color: #000;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+  border-radius: 80px;
+  padding:10px;
+  width: 600px;
+  margin:10px;
+  margin-top:-10px;
+  margin-left:180px;
+}
+.edu2{
+  display:grid !important;
+  background-color: #000;
+  color: antiquewhite;
+  text-shadow: 6px 2px 4px goldenrod;
+  border-radius: 80px;
+  padding:10px;
+  width: 500px;
+  margin-left: 790px;
+  margin-top:-140px;
+}
+
+
+#linkmenu{
+  position:relative;
+ margin-left:-1200px;
+ margin-top:-25px;
+ background-color: #000;
+ text-shadow: 6px 2px 4px goldenrod;
+ padding:30px;
+ 
+
+}
+
+
+#linkmenu1{
+  position:relative;
+ margin-left:1100px;
+ margin-top:-45px;
+ background-color: #000;
+ text-shadow: 6px 2px 4px goldenrod;
+ padding:20px;
+ 
+}
+
+#linkmenu1 a{
+  text-decoration: none;
+  font-size:22px;
+}
+
+
+.linkmail a{
+  text-decoration: none !important;
+  text-transform: lowercase !important;
+  color:red;
+}
+
+#linkmenu a{
+  text-decoration: none;
+  font-size:22px;
+}
+
+#projectm{
+  color: goldenrod;
+  text-shadow: 4px 2px 4px red;
+  background-color: #000;
+  padding: 30px;
+}
+
+
+.contactme{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  color: goldenrod;
+  text-shadow: 4px 2px 4px red;
+  position: relative;
+  left: 100px;   
+
+}
+
+.contme{
+  margin-left:-900px !important;
+  margin-top:-380px;
+}
+
+.secondSection{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  left: 400px;
+  top: 200px;
+  padding: 10px;
+  margin-top: -200px;
+  margin-bottom: 300px;;
+  height: 230px;
+  width: 600px;
+  background-color: goldenrod;
+  box-shadow: 5px 5px 10px #808080;
+
+}
+.sendBtn{
+  background-color: goldenrod;
+  color: black;
+  border: none;
+  font-size: 15px;
+  padding: 5px 10px;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+  left: 150px;
+  top: 100px;
+}
+input{
+  position: relative;
+  border-radius: 30px;
+  left: 13px;
+  padding: 3px 10px;
+  margin: 2px 0;
+  width: 45%;
+  color: black;
+}
+
+
+textarea{
+  width: 238px;
+  height: 123px;
+  position: relative;
+  border-radius: 5px;
+  padding: 3px 10px;
+  left: 20px;
+  top: 30px;
+  color: #C7C7E0;
 }
